@@ -1,0 +1,15 @@
+{
+  // 启用保存时格式化
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    // 表示在保存文件时，触发 ESLint 自动修复功能
+    "source.fixAll.eslint": "always"
+  },
+  // 指定 ESLint 应该检查的文件类型，例如 JavaScript、TypeScript 等
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
