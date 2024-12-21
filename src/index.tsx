@@ -9,7 +9,4 @@ const APP = () => {
   );
 };
 
-const a = 'gggg';
-console.log(a);
-
 createRoot(document.getElementById('root') as HTMLElement).render(<APP />);
