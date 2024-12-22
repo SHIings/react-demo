@@ -10,6 +10,6 @@ const APP = () => {
 };
 
 const test = 'hahah';
-const a = 1;
+const j = 1;
 
 createRoot(document.getElementById('root') as HTMLElement).render(<APP />);
